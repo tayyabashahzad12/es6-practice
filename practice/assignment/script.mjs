@@ -6,7 +6,6 @@ const alertFunction = () => {
     if (!name) {
         document.write("My name is.<br>");
     }
-
     const age = prompt("What is your age?", "18");
     if (age < 18) {
         document.write(` i am ${age} years old and is a minor. <br>`);
@@ -17,8 +16,6 @@ const alertFunction = () => {
     if (!age) {
         document.write("My age is.<br>");
     }
-
-
     const hobbies = prompt("What are your hobbies?", "hobbies");
 
     if (hobbies) {
@@ -27,8 +24,6 @@ const alertFunction = () => {
     if (!hobbies) {
         document.write("My hobbies are.<br>");
     }
-
-
     const nationality = prompt("what is your nationality?", "nationality");
 
     if (nationality) {
@@ -37,8 +32,6 @@ const alertFunction = () => {
     if (!nationality) {
         document.write("My nationality is.<br>");
     }
-
-
     const surName = prompt("what is your surName?", "surName")
     if (surName) {
         document.write(`my surName is ${surName}.<br>`)
